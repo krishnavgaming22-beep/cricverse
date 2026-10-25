@@ -1,0 +1,109 @@
+[
+  {
+    "name": "stadium",
+    "bytes": 10130944,
+    "meshes": 13,
+    "triangles": 99500,
+    "skins": 0,
+    "animations": [],
+    "uvMapped": true,
+    "source": "production/stadium.blend"
+  },
+  {
+    "name": "batsman",
+    "bytes": 845672,
+    "meshes": 1,
+    "triangles": 10696,
+    "skins": 1,
+    "animations": [
+      "Bowl",
+      "Catch",
+      "Defend",
+      "Drive",
+      "Idle",
+      "Loft",
+      "Pull",
+      "Run"
+    ],
+    "uvMapped": true,
+    "source": "production/batsman.blend"
+  },
+  {
+    "name": "bowler",
+    "bytes": 605936,
+    "meshes": 1,
+    "triangles": 7164,
+    "skins": 1,
+    "animations": [
+      "Bowl",
+      "Catch",
+      "Defend",
+      "Drive",
+      "Idle",
+      "Loft",
+      "Pull",
+      "Run"
+    ],
+    "uvMapped": true,
+    "source": "production/bowler.blend"
+  },
+  {
+    "name": "keeper",
+    "bytes": 862604,
+    "meshes": 1,
+    "triangles": 11076,
+    "skins": 1,
+    "animations": [
+      "Bowl",
+      "Catch",
+      "Defend",
+      "Drive",
+      "Idle",
+      "Loft",
+      "Pull",
+      "Run"
+    ],
+    "uvMapped": true,
+    "source": "production/keeper.blend"
+  },
+  {
+    "name": "bat",
+    "bytes": 1090844,
+    "meshes": 4,
+    "triangles": 3024,
+    "skins": 0,
+    "animations": [],
+    "uvMapped": true,
+    "source": "production/bat.blend"
+  },
+  {
+    "name": "ball",
+    "bytes": 369548,
+    "meshes": 2,
+    "triangles": 3520,
+    "skins": 0,
+    "animations": [],
+    "uvMapped": true,
+    "source": "production/ball.blend"
+  },
+  {
+    "name": "wicket",
+    "bytes": 34148,
+    "meshes": 14,
+    "triangles": 600,
+    "skins": 0,
+    "animations": [],
+    "uvMapped": true,
+    "source": "production/wicket.blend"
+  },
+  {
+    "name": "crowd",
+    "bytes": 7628,
+    "meshes": 1,
+    "triangles": 264,
+    "skins": 0,
+    "animations": [],
+    "uvMapped": true,
+    "source": "production/crowd.blend"
+  }
+]

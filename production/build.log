@@ -1,0 +1,123 @@
+/Users/krishnavsewak/Documents/ChatGPT/CricVerse/scripts/build_assets.py:18: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
+Warning: No mesh data to join
+Warning: No mesh data to join
+Info: Saved as "bat.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+15:43:53 | INFO: Starting glTF 2.0 export
+15:43:53 | INFO: Extracting primitive: Torus.001
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cube.001
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Willow_blade
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Finished glTF 2.0 export in 0.022728919982910156 s
+
+EXPORTED bat
+Warning: No mesh data to join
+Info: Saved as "ball.blend"
+15:43:53 | INFO: Starting glTF 2.0 export
+15:43:53 | INFO: Extracting primitive: Leather_ball
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.001
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Finished glTF 2.0 export in 0.007626771926879883 s
+
+EXPORTED ball
+Info: Saved as "wicket.blend"
+15:43:53 | INFO: Starting glTF 2.0 export
+15:43:53 | INFO: Extracting primitive: Cylinder.153
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.154
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.145
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.149
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.141
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.142
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.143
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.144
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.146
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.147
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.148
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.150
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.151
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Extracting primitive: Cylinder.152
+15:43:53 | INFO: Primitives created: 1
+15:43:53 | INFO: Finished glTF 2.0 export in 0.010749101638793945 s
+
+EXPORTED wicket
+Info: Saved as "batsman.blend"
+15:43:53 | INFO: Starting glTF 2.0 export
+15:43:53 | INFO: Extracting primitive: Tailored_jersey
+15:43:53 | INFO: Primitives created: 11
+15:43:54 | INFO: Finished glTF 2.0 export in 0.3138589859008789 s
+
+EXPORTED batsman
+00:04.681  render           | Saved: '/Users/krishnavsewak/Documents/ChatGPT/CricVerse/production/batsman-preview.png'
+Info: Saved as "batsman.blend"
+Info: Saved as "bowler.blend"
+15:43:56 | INFO: Starting glTF 2.0 export
+15:43:56 | INFO: Extracting primitive: Tailored_jersey.001
+15:43:56 | INFO: Primitives created: 9
+15:43:57 | INFO: Finished glTF 2.0 export in 0.5188190937042236 s
+
+EXPORTED bowler
+Info: Saved as "keeper.blend"
+15:43:57 | INFO: Starting glTF 2.0 export
+15:43:57 | INFO: Extracting primitive: Tailored_jersey.002
+15:43:57 | INFO: Primitives created: 11
+15:43:58 | INFO: Finished glTF 2.0 export in 0.6808981895446777 s
+
+EXPORTED keeper
+Warning: No mesh data to join
+Info: Saved as "stadium.blend"
+15:44:33 | INFO: Starting glTF 2.0 export
+15:44:33 | INFO: Extracting primitive: Cube.053
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Cylinder.259
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Roof_lip
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Hospitality_fascia
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Cube.036
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Seat_row.001
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Flood_lens
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Canopy_panel
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Cube.121
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Outfield_144m
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Cube.034
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Seat_row
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Extracting primitive: Bowl_plinth
+15:44:33 | INFO: Primitives created: 1
+15:44:33 | INFO: Finished glTF 2.0 export in 0.11042499542236328 s
+
+EXPORTED stadium
+00:50.976  render           | Saved: '/Users/krishnavsewak/Documents/ChatGPT/CricVerse/production/stadium-preview.png'
+Info: Saved as "stadium.blend"
+ASSET PRODUCTION COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,66 @@
+/Users/krishnavsewak/Documents/ChatGPT/CricVerse/scripts/build_assets.py:19: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
+Warning: No mesh data to join
+Warning: No mesh data to join
+Info: Saved as "bat.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+16:11:47 | INFO: Starting glTF 2.0 export
+16:11:47 | INFO: Extracting primitive: Torus.001
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cube.001
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Willow_blade
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Finished glTF 2.0 export in 0.025552034378051758 s
+
+EXPORTED bat
+Warning: No mesh data to join
+Info: Saved as "ball.blend"
+16:11:47 | INFO: Starting glTF 2.0 export
+16:11:47 | INFO: Extracting primitive: Leather_ball
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.001
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Finished glTF 2.0 export in 0.00916290283203125 s
+
+EXPORTED ball
+Info: Saved as "wicket.blend"
+16:11:47 | INFO: Starting glTF 2.0 export
+16:11:47 | INFO: Extracting primitive: Cylinder.153
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.154
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.145
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.149
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.141
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.142
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.143
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.144
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.146
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.147
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.148
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.150
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.151
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Extracting primitive: Cylinder.152
+16:11:47 | INFO: Primitives created: 1
+16:11:47 | INFO: Finished glTF 2.0 export in 0.012821197509765625 s
+
+EXPORTED wicket
+ASSET PRODUCTION COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

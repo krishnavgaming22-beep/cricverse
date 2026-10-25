@@ -1,0 +1,31 @@
+/Users/krishnavsewak/Documents/ChatGPT/CricVerse/scripts/build_assets.py:19: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1); m.use_nodes=True
+Info: Saved as "batsman.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+16:04:52 | INFO: Starting glTF 2.0 export
+16:04:52 | INFO: Extracting primitive: Tailored_jersey
+16:04:52 | INFO: Primitives created: 11
+16:04:52 | INFO: Finished glTF 2.0 export in 0.3176248073577881 s
+
+EXPORTED batsman
+00:04.368  render           | Saved: '/Users/krishnavsewak/Documents/ChatGPT/CricVerse/production/batsman-preview.png'
+Info: Saved as "batsman.blend"
+Info: Saved as "bowler.blend"
+16:04:55 | INFO: Starting glTF 2.0 export
+16:04:55 | INFO: Extracting primitive: Tailored_jersey.001
+16:04:55 | INFO: Primitives created: 9
+16:04:56 | INFO: Finished glTF 2.0 export in 0.29930901527404785 s
+
+EXPORTED bowler
+Info: Saved as "keeper.blend"
+16:04:56 | INFO: Starting glTF 2.0 export
+16:04:56 | INFO: Extracting primitive: Tailored_jersey.002
+16:04:56 | INFO: Primitives created: 11
+16:04:56 | INFO: Finished glTF 2.0 export in 0.3110072612762451 s
+
+EXPORTED keeper
+ASSET PRODUCTION COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

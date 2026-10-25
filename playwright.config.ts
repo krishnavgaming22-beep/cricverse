@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests/browser',timeout:90000,expect:{timeout:15000},workers:1,webServer:{command:'npm run preview -- --port 4188 --strictPort',url:'http://127.0.0.1:4188',reuseExistingServer:false,timeout:30000},use:{baseURL:'http://127.0.0.1:4188',viewport:{width:1440,height:900},headless:true,launchOptions:{args:['--use-angle=metal','--enable-webgl']},screenshot:'only-on-failure'},reporter:[['list'],['html',{open:'never'}]]});

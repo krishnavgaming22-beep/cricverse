@@ -1,0 +1,29 @@
+{
+  "author": "Original CricVerse procedural production",
+  "units": "metres",
+  "sourceAxes": "Z up",
+  "gameAxes": "Y up",
+  "pitchLength": 20.12,
+  "ballRadius": 0.036,
+  "assets": [
+    "stadium",
+    "batsman",
+    "bowler",
+    "keeper",
+    "bat",
+    "ball",
+    "wicket",
+    "crowd"
+  ],
+  "clips": [
+    "Idle",
+    "Run",
+    "Bowl",
+    "Defend",
+    "Drive",
+    "Loft",
+    "Pull",
+    "Catch"
+  ],
+  "batLength": 0.965
+}

@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+const names=['stadium','batsman','bowler','keeper','bat','ball','wicket','crowd'];const report=[];
+for(const name of names){const path=`public/assets/${name}.glb`,data=fs.readFileSync(path);if(data.readUInt32LE(0)!==0x46546c67)throw Error('Invalid GLB '+name);const json=JSON.parse(data.subarray(20,20+data.readUInt32LE(12)).toString());const meshes=json.meshes??[],animations=(json.animations??[]).map(a=>a.name);if(!fs.existsSync(`production/${name}.blend`))throw Error('Missing editable source '+name);if(['batsman','bowler','keeper'].includes(name)){if(!json.skins?.length)throw Error('Missing rig '+name);for(const clip of ['Idle','Run','Bowl','Defend','Drive','Loft','Pull','Catch'])if(!animations.includes(clip))throw Error('Missing '+clip+' on '+name)}
+let triangles=0;for(const m of meshes)for(const p of m.primitives)triangles+=(json.accessors[p.indices]?.count??0)/3;
+report.push({name,bytes:data.length,meshes:meshes.length,triangles,skins:json.skins?.length??0,animations,uvMapped:meshes.every(m=>m.primitives.every(p=>p.attributes.TEXCOORD_0!==undefined)),source:`production/${name}.blend`});}
+fs.writeFileSync('qa/asset-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
