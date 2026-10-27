@@ -1,5 +1,7 @@
 import {Random,clamp,v,type V3} from './math';
-import type {Config,Delivery,Result} from './types';
+import {bowlingHand,RELEASE_TIME} from './rig';
+import {integrateAir,predictArrival,STEP} from './physics';
+import type {Ball,Config,Delivery,Result} from './types';
 export function chooseDelivery(c:Config,history:Result[],rng:Random):Delivery {
  const recent=history.slice(-6),lofts=recent.filter(r=>r.shot==='loft').length,early=recent.filter(r=>r.timing==='EARLY').length;
  let kind=c.mode!=='match'&&c.practiceLength!=='mixed'?c.practiceLength:rng.pick(['good','good','full','short','yorker','slower'] as const);
@@ -11,12 +13,18 @@ export function chooseDelivery(c:Config,history:Result[],rng:Random):Delivery {
  if(c.mode==='match'&&rng.next()<.018)noBall=true;
  return {kind,speed,line,swing:rng.range(-.5,.5)*(c.difficulty==='Elite'?1.3:.65),seam:rng.range(-.3,.3),noBall,bounce:.66,friction:.95,...c.overrides};
 }
-export const RELEASE=v(.35,2.22,-10.4);
-export function releaseVelocity(d:Delivery):V3{
+export const RELEASE=bowlingHand(RELEASE_TIME);
+export function releaseVelocity(d:Delivery,release:V3=RELEASE):V3{
  const bounceZ={full:6.0,good:3.5,short:-.2,yorker:8.0,slower:3.5}[d.kind];
- const speed=d.speed/3.6;const t=(bounceZ-RELEASE.z)/speed;
- const vy=(.036-RELEASE.y+4.905*t*t)/t;
- const fullFlight=(8.55-RELEASE.z)/speed;
- return v((d.line-RELEASE.x)/fullFlight-d.swing*fullFlight*.5,vy,speed);
+ const speed=d.speed/3.6;const t=(bounceZ-release.z)/speed;
+ let vy=(.036-release.y+4.905*t*t)/t;
+ const fullFlight=(8.55-release.z)/speed;let velocity=v((d.line-release.x)/fullFlight-d.swing*fullFlight*.5,vy,speed);
+ // Solve length with the same drag and gravity used in play; labels correspond to actual bounce zones.
+ for(let attempt=0;attempt<4;attempt++){
+  const probe:Ball={p:{...release},v:{...velocity},live:true,hit:false,bounced:false,bounces:0,groundedAfterHit:false};let elapsed=0;
+  while(probe.p.z<bounceZ&&elapsed<3){const previous={...probe.p};integrateAir(probe,d,STEP);elapsed+=STEP;if(probe.p.z>=bounceZ){const fraction=(bounceZ-previous.z)/(probe.p.z-previous.z);const y=previous.y+(probe.p.y-previous.y)*fraction;velocity.y+=(.036-y)/elapsed;}}
+ }
+ for(let attempt=0;attempt<2;attempt++){const arrival=predictArrival({p:{...release},v:{...velocity},live:true,hit:false,bounced:false,bounces:0,groundedAfterHit:false},d);velocity.x+=(d.line-arrival.point.x)/arrival.time;}
+ return velocity;
 }
 export const bowlingStrategy=(history:Result[])=>{const r=history.slice(-6);if(r.filter(x=>x.shot==='loft').length>=3)return 'Testing the short ball after repeated lofted strokes';if(r.filter(x=>x.timing==='EARLY').length>=2)return 'Changing pace after early swings';if(r.reduce((a,b)=>a+b.batRuns,0)>16)return 'Protecting the boundary with yorkers and shorter lengths';return 'Mixing line, length and pace'};

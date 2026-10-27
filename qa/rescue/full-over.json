@@ -1,0 +1,173 @@
+{
+  "runs": 0,
+  "wickets": 0,
+  "balls": 6,
+  "extras": 0,
+  "fours": 0,
+  "sixes": 0,
+  "history": [
+    {
+      "runs": 0,
+      "batRuns": 0,
+      "extras": 0,
+      "legal": true,
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.5561790308558715,
+      "delivery": {
+        "kind": "short",
+        "speed": 96,
+        "line": 0.15632667372468856,
+        "swing": -0.2205475194263272,
+        "seam": -0.13135510263964534,
+        "noBall": false,
+        "bounce": 0.66,
+        "friction": 0.95
+      },
+      "shot": "defend",
+      "aim": 0,
+      "landing": {
+        "x": 0.0026589241659241607,
+        "y": 0.6779785795114794,
+        "z": -10.2527325987493
+      },
+      "contact": true
+    },
+    {
+      "runs": 0,
+      "batRuns": 0,
+      "extras": 0,
+      "legal": true,
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.5793096284108252,
+      "delivery": {
+        "kind": "good",
+        "speed": 96,
+        "line": 0.18529926668852564,
+        "swing": 0.22276004410814496,
+        "seam": 0.06955201313830911,
+        "noBall": false,
+        "bounce": 0.66,
+        "friction": 0.95
+      },
+      "shot": "drive",
+      "aim": 0,
+      "landing": {
+        "x": -0.02258521628181099,
+        "y": 0.6805726579139504,
+        "z": -9.867604656306016
+      },
+      "contact": true
+    },
+    {
+      "runs": 0,
+      "batRuns": 0,
+      "extras": 0,
+      "legal": true,
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.4051426003793499,
+      "delivery": {
+        "kind": "good",
+        "speed": 96,
+        "line": 0.2927686375612393,
+        "swing": -0.21595137302065268,
+        "seam": 0.25618014433421193,
+        "noBall": false,
+        "bounce": 0.66,
+        "friction": 0.95
+      },
+      "shot": "loft",
+      "aim": 0,
+      "landing": {
+        "x": -0.04614467283132105,
+        "y": 0.6599231180873507,
+        "z": -9.878230417128012
+      },
+      "contact": true
+    },
+    {
+      "runs": 0,
+      "batRuns": 0,
+      "extras": 0,
+      "legal": true,
+      "boundary": 0,
+      "timing": "MISSED",
+      "quality": 0,
+      "delivery": {
+        "kind": "good",
+        "speed": 96,
+        "line": -0.17255653275642546,
+        "swing": -0.2085348634631373,
+        "seam": 0.2998342590406537,
+        "noBall": false,
+        "bounce": 0.66,
+        "friction": 0.95
+      },
+      "shot": "pull",
+      "aim": 0,
+      "landing": {
+        "x": -0.1758533710393933,
+        "y": 0.8449667007151682,
+        "z": 12.190511872809667
+      },
+      "contact": false
+    },
+    {
+      "runs": 0,
+      "batRuns": 0,
+      "extras": 0,
+      "legal": true,
+      "boundary": 0,
+      "timing": "GOOD",
+      "quality": 0.833622968995013,
+      "delivery": {
+        "kind": "good",
+        "speed": 96,
+        "line": 0.12145618155598636,
+        "swing": -0.22185515473829584,
+        "seam": 0.28015128532424566,
+        "noBall": false,
+        "bounce": 0.66,
+        "friction": 0.95
+      },
+      "shot": "defend",
+      "aim": 0,
+      "landing": {
+        "x": 0.0024736288138214263,
+        "y": 0.6791426445592943,
+        "z": -10.253102191264716
+      },
+      "contact": true
+    },
+    {
+      "runs": 0,
+      "batRuns": 0,
+      "extras": 0,
+      "legal": true,
+      "boundary": 0,
+      "timing": "GOOD",
+      "quality": 0.7734197330528103,
+      "delivery": {
+        "kind": "good",
+        "speed": 96,
+        "line": 0.27321538699790837,
+        "swing": -0.2901977269328199,
+        "seam": 0.03117050472646954,
+        "noBall": false,
+        "bounce": 0.66,
+        "friction": 0.95
+      },
+      "shot": "drive",
+      "aim": 0,
+      "landing": {
+        "x": -0.021704807562677248,
+        "y": 0.6982783017685562,
+        "z": -9.966545752495222
+      },
+      "contact": true
+    }
+  ],
+  "best": 0
+}

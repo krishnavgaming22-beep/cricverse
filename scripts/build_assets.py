@@ -1,5 +1,5 @@
-"""Original CricVerse art pipeline. Blender metres, Z-up → glTF Y-up.
-All geometry and textures authored here; no external/licensed dependencies.
+"""Original CricVerse stadium/equipment pipeline. Blender metres, Z-up → glTF Y-up.
+Characters are rebuilt separately from the credited CC0 human base.
 Run from the repository: blender -b --python scripts/build_assets.py
 """
 import bpy, math, random, os, json
@@ -25,12 +25,13 @@ def mat(name,color,rough=.7,metal=0,emission=0):
 def texture(m,name,kind,size=512):
     rng=np.random.default_rng(176); yy,xx=np.mgrid[0:size,0:size]; noise=rng.random((size,size))
     if kind=='grass':
-        stripe=(np.sin(xx/size*math.pi*24)>0)*.045
-        n=noise*.13+stripe; rgb=np.stack([.16+n*.44,.28+n*.73,.085+n*.3],axis=-1)
+        stripe=(np.sin(xx/size*math.pi*24)>0)*.028
+        n=noise*.075+stripe; rgb=np.stack([.13+n*.44,.235+n*.73,.075+n*.3],axis=-1)
         streak=(rng.random((size,size))>.996); rgb[streak]*=.7
     elif kind=='pitch':
-        n=noise*.2; rgb=np.stack([.60+n,.49+n*.9,.30+n*.65],axis=-1)
-        cracks=(np.sin(xx*.16+np.sin(yy*.045)*2)>.998); rgb[cracks]*=.7
+        n=noise*.055+.023*np.sin(xx*.018)*np.sin(yy*.029); wear=np.exp(-((yy/size-.09)/.08)**2)+np.exp(-((yy/size-.91)/.08)**2)
+        rgb=np.stack([.49+n+wear*.055,.43+n+wear*.032,.29+n*.65+wear*.02],axis=-1)
+        scuffs=(noise>.992)&(wear>.35); rgb[scuffs]*=.78
     elif kind=='wood':
         n=(np.sin(xx*.17+np.sin(yy*.012)*2)*.03+noise*.045);rgb=np.stack([.80+n,.64+n,.39+n],axis=-1)
     else:
@@ -152,23 +153,43 @@ def stadium():
             arc('Lower_terrace',r,r+.72,z-.26,z,a0,a1,concrete,4)
             arc('Seat_row',r+.14,r+.44,z+.08,z+.44,a0+.008,a1-.008,teal if (row+sector)%3 else pale,5)
         arc('Hospitality_fascia',83,84,7.5,9,a0,a1,dark,4)
-        for row in range(10):
+        for row in range(0 if sector in range(7,12) else 5 if sector in range(24,28) else 10):
             r=84+row*.68;z=9.1+row*.46
             arc('Upper_terrace',r,r+.7,z-.28,z,a0,a1,concrete,4)
             arc('Upper_seats',r+.14,r+.42,z+.06,z+.4,a0+.01,a1-.01,teal if row%4 else pale,5)
-        # Airy sawtooth cantilevered roof, timber/gold leading edge.
-        v=[]
-        for r,z in [(80,18.1),(95,20.5)]:
-            for a in (a0,a1):v.append((r*math.cos(a),r*.91*math.sin(a),z))
-        mesh('Canopy_panel',v,[(0,1,3,2)],roof)
-        for a in (a0,a1):
-            rod('Roof_truss',(79*math.cos(a),79*.91*math.sin(a),17.9),(96*math.cos(a),96*.91*math.sin(a),20.1),.11,dark)
-            rod('Exterior_column',(94*math.cos(a),94*.91*math.sin(a),0),(94*math.cos(a),94*.91*math.sin(a),20.4),.20,concrete)
-            rod('Canopy_stay',(86*math.cos(a),86*.91*math.sin(a),18.7),(94*math.cos(a),94*.91*math.sin(a),15.5),.055,rail)
-        arc('Roof_lip',79.7,80,17.9,18.15,a0,a1,gold,4)
+        if sector not in list(range(7,12))+list(range(24,28)):
+            # Airy sawtooth cantilevered roof, timber/gold leading edge.
+            v=[]
+            for r,z in [(80,18.1),(95,20.5)]:
+                for a in (a0,a1):v.append((r*math.cos(a),r*.91*math.sin(a),z))
+            mesh('Canopy_panel',v,[(0,1,3,2)],roof)
+            for a in (a0,a1):
+                rod('Roof_truss',(79*math.cos(a),79*.91*math.sin(a),17.9),(96*math.cos(a),96*.91*math.sin(a),20.1),.11,dark)
+                rod('Exterior_column',(94*math.cos(a),94*.91*math.sin(a),0),(94*math.cos(a),94*.91*math.sin(a),20.4),.20,concrete)
+                rod('Canopy_stay',(86*math.cos(a),86*.91*math.sin(a),18.7),(94*math.cos(a),94*.91*math.sin(a),15.5),.055,rail)
+            arc('Roof_lip',79.7,80,17.9,18.15,a0,a1,gold,4)
         for rr,zz in [(73.6,2),(82.5,7.7),(91,14)]:arc('Balustrade',rr,rr+.035,zz,zz+.72,a0,a1,rail,4)
         if sector%6==0:
             o=box('Player_tunnel',(72.2*math.cos(mid),72.2*.91*math.sin(mid),1.3),(4,2.4,2.6),dark);o.rotation_euler.z=mid
+    # Asymmetric members' pavilion: terraces, shaded galleries, clerestory and metal roof.
+    glass=mat('Pavilion smoked glazing',(.075,.13,.135),.24,.25)
+    timber=mat('Pavilion warm timber',(.28,.19,.12),.8)
+    for level in range(3):
+        z=7.3+level*3.6
+        box('Pavilion_floor',(0,83,z),(39,12,.32),concrete,.07)
+        box('Gallery_glass',(0,77.1,z+1.65),(37,.12,2.8),glass)
+        box('Balcony_front',(0,75.6,z+.85),(39,.14,1.25),rail)
+        box('Sunshade',(0,76.4,z+3.1),(40,2.8,.18),dark)
+        for x in range(-18,19,3):box('Gallery_mullion',(x,77,z+1.5),(.10,.23,3),timber)
+    for x in (-19,19):box('Pavilion_core',(x,83,11.8),(2.2,12,12),concrete,.08)
+    box('Pavilion_roof',(0,82.5,18.7),(43,14,.55),dark,.12)
+    for x in range(-20,21,2):rod('Roof_fin',(x,75.7,19),(x,89.4,19.6),.045,gold)
+    # Low open stand and landscaped concourse opposite the members' building.
+    for x in (-24,-16,16,24):
+        box('Concourse_planter',(x,-83,3.4),(5,3,1.2),concrete,.12)
+        oval('Clipped_shrub',(x,-83,4.3),(2.8,1.8,1.2),grass,16,8)
+    box('Media_box',(44,67,13),(11,9,6),dark,.2)
+    box('Media_glass',(41,62.4,13),(7,.14,3.9),glass)
     # Architectural entrances/black sight screens beyond the wickets.
     for y in (-69,69):box('Sight_screen',(0,y,3.2),(15,.4,6.4),dark,.12)
     for i in range(64):
@@ -203,7 +224,10 @@ def equipment():
     for i in range(21):
         bpy.ops.mesh.primitive_torus_add(major_radius=.017,minor_radius=.0014,major_segments=16,minor_segments=4,location=(0,0,.06+i*.011));bpy.context.object.data.materials.append(gold if i in (1,2) else rubber)
     box('Blade_decal',(0,-.020,-.29),(.085,.003,.13),label,.005);box('Blade_flash',(0,-.023,-.30),(.015,.003,.08),gold,.002)
-    join_static();export('bat')
+    join_static()
+    for name,height in [('Grip_Left',.16),('Grip_Right',.065)]:
+        marker=bpy.data.objects.new(name,None);bpy.context.collection.objects.link(marker);marker.location=(0,0,height)
+    export('bat')
     clear();red=texture(mat('Oxblood leather',(.37,.018,.028),.4),'ball_leather','cloth',256);stitch=mat('Waxed seam thread',(.77,.65,.47),.8)
     oval('Leather_ball',(0,0,0),(.036,.036,.036),red,32,20)
     for side in (-1,1):
@@ -325,6 +349,6 @@ if __name__=='__main__':
     if section in ('all','characters'):
         for role in ('batsman','bowler','keeper'):character(role)
     if section in ('all','stadium'):stadium()
-    manifest={'author':'Original CricVerse procedural production','units':'metres','sourceAxes':'Z up','gameAxes':'Y up','pitchLength':20.12,'ballRadius':.036,'assets':['stadium','batsman','bowler','keeper','bat','ball','wicket','crowd'],'batLength':.965,'clips':['Idle','Run','Bowl','Defend','Drive','Loft','Pull','Catch']}
+    manifest={'author':'CricVerse production; CC0 MakeHuman-derived human base via Innerscene','humanProvenance':'production/source-assets/LICENSES.md','animation':'Named GLB rest-pose placeholders; layered gameplay skeletal animation in src/game/rig.ts','units':'metres','sourceAxes':'Z up','gameAxes':'Y up','pitchLength':20.12,'ballRadius':.036,'assets':['stadium','batsman','bowler','keeper','bat','ball','wicket','crowd'],'batLength':.965,'clips':['Idle','Run','Bowl','Defend','Drive','Loft','Pull','Catch']}
     with open(os.path.join(OUT,'manifest.json'),'w') as f:json.dump(manifest,f,indent=2)
     print('ASSET PRODUCTION COMPLETE',flush=True)

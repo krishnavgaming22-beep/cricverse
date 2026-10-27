@@ -1,9 +1,9 @@
 [
   {
     "name": "stadium",
-    "bytes": 10130944,
-    "meshes": 13,
-    "triangles": 99500,
+    "bytes": 9678320,
+    "meshes": 15,
+    "triangles": 95434,
     "skins": 0,
     "animations": [],
     "uvMapped": true,
@@ -11,9 +11,9 @@
   },
   {
     "name": "batsman",
-    "bytes": 845672,
+    "bytes": 1386200,
     "meshes": 1,
-    "triangles": 10696,
+    "triangles": 29537,
     "skins": 1,
     "animations": [
       "Bowl",
@@ -30,9 +30,9 @@
   },
   {
     "name": "bowler",
-    "bytes": 605936,
+    "bytes": 1343996,
     "meshes": 1,
-    "triangles": 7164,
+    "triangles": 29740,
     "skins": 1,
     "animations": [
       "Bowl",
@@ -49,9 +49,9 @@
   },
   {
     "name": "keeper",
-    "bytes": 862604,
+    "bytes": 1387368,
     "meshes": 1,
-    "triangles": 11076,
+    "triangles": 29537,
     "skins": 1,
     "animations": [
       "Bowl",
@@ -68,7 +68,7 @@
   },
   {
     "name": "bat",
-    "bytes": 1090844,
+    "bytes": 1090968,
     "meshes": 4,
     "triangles": 3024,
     "skins": 0,

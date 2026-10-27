@@ -1,0 +1,9 @@
+21:43:13 | INFO: Data are loaded, start creating Blender stuff
+21:43:13 | INFO: Blender create Mesh node base
+21:43:13 | INFO: Blender create Mesh node high-poly
+21:43:13 | INFO: glTF import finished in 0.33s
+Info: Saved as "human-import.blend"
+HUMAN INSPECTED
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

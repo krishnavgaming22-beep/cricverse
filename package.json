@@ -1,6 +1,6 @@
 {
   "name": "cricverse",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "assets": "/Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/build_assets.py && /Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/build_crowd.py",
+    "assets": "/Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/build_assets.py -- stadium && /Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/build_assets.py -- equipment && /Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/rebuild_characters.py && /Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/build_crowd.py",
     "test:browser": "playwright test",
     "verify:assets": "node scripts/verify_assets.mjs",
     "fonts": "node scripts/bundle_fonts.mjs"

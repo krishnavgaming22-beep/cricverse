@@ -1,5 +1,5 @@
 {
-  "author": "Original CricVerse procedural production",
+  "author": "CricVerse production; CC0 MakeHuman-derived human base via Innerscene",
   "units": "metres",
   "sourceAxes": "Z up",
   "gameAxes": "Y up",
@@ -15,6 +15,7 @@
     "wicket",
     "crowd"
   ],
+  "batLength": 0.965,
   "clips": [
     "Idle",
     "Run",
@@ -25,5 +26,6 @@
     "Pull",
     "Catch"
   ],
-  "batLength": 0.965
+  "humanProvenance": "production/source-assets/LICENSES.md",
+  "animation": "Named GLB rest-pose placeholders; layered gameplay skeletal animation in src/game/rig.ts"
 }

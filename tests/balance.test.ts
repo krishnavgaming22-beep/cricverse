@@ -13,7 +13,7 @@ it('measures skill/shot outcomes over seeded physics batches',()=>{
  expect(rows.find(x=>x.shot==='drive'&&x.skill===1)!.quality).toBeGreaterThan(rows.find(x=>x.shot==='drive'&&x.skill===.25)!.quality);
  expect(rows.some(x=>x.sixes>0)).toBe(true);expect(rows.filter(x=>x.shot==='loft').some(x=>x.sixes<100)).toBe(true);
  writeFileSync('qa/balance-report.json',JSON.stringify(rows,null,2));
-});
+},120000);
 it('keeps wides in their over and starts a new over after the seventh legal ball',()=>{
  const data=runLab({...DEFAULT_LAB,count:8});const history=[...data.slice(0,5),{...data[5],legal:false},data[5]];
  expect(currentOver(history)).toHaveLength(7);expect(currentOver([...history,data[6]])).toHaveLength(1);

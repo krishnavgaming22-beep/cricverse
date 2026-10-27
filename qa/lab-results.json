@@ -19,12 +19,12 @@
   },
   "metrics": {
     "deliveries": 50,
-    "runRate": 1.64,
-    "dots": 50,
-    "boundaries": 36,
-    "wickets": 14,
-    "contacts": 98,
-    "quality": 0.7692176870755372
+    "runRate": 0.54,
+    "dots": 52,
+    "boundaries": 10,
+    "wickets": 24,
+    "contacts": 100,
+    "quality": 0.6832929787354494
   },
   "results": [
     {
@@ -34,7 +34,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.9916666666664078,
+      "quality": 0.9764698036164124,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -48,9 +48,9 @@
       "shot": "defend",
       "aim": 0.03560409062728284,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0019574496129896738,
+        "y": 0.6996514011987801,
+        "z": -10.156224242500556
       },
       "contact": true
     },
@@ -60,8 +60,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7583333333330735,
+      "timing": "GOOD",
+      "quality": 0.8304630984257246,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -75,9 +75,9 @@
       "shot": "defend",
       "aim": 0.0037253046240657553,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0014037300311214005,
+        "y": 0.6996519269672686,
+        "z": -10.156378714621109
       },
       "contact": true
     },
@@ -87,8 +87,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7583333333330913,
+      "timing": "GOOD",
+      "quality": 0.820105742312191,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -102,20 +102,21 @@
       "shot": "defend",
       "aim": -0.023317075213417405,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.002966831708480492,
+        "y": 0.6791427167721719,
+        "z": -10.253114859047662
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "GOOD",
-      "quality": 0.5916666666664341,
+      "wicket": "run out",
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.475303269391274,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -129,9 +130,9 @@
       "shot": "drive",
       "aim": 0.0047512791734188806,
       "landing": {
-        "x": -21.35970318833651,
-        "y": 0.036,
-        "z": -55.674838078343775
+        "x": 0.009278473157391703,
+        "y": 0.7011176498965512,
+        "z": -9.963780482152993
       },
       "contact": true
     },
@@ -141,8 +142,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.6749999999997627,
+      "timing": "GOOD",
+      "quality": 0.7562905458811717,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -156,20 +157,20 @@
       "shot": "defend",
       "aim": 0.021855465076863756,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.001180848210019423,
+        "y": 0.6996520818739823,
+        "z": -10.156424245716753
       },
       "contact": true
     },
     {
-      "runs": 0,
-      "batRuns": 0,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "GOOD",
-      "quality": 0.5333333333289971,
+      "timing": "LATE",
+      "quality": 0.39046576108582487,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -183,9 +184,9 @@
       "shot": "drive",
       "aim": 0.03733914552256464,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.018474643743960323,
+        "y": 0.6984637103887774,
+        "z": -9.965877989264392
       },
       "contact": true
     },
@@ -196,8 +197,8 @@
       "legal": true,
       "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.9916666666626952,
+      "timing": "GOOD",
+      "quality": 0.8309159063290379,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -211,20 +212,20 @@
       "shot": "drive",
       "aim": -0.014041538946330543,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": 0.0020788843093781564,
+        "y": 0.6770132077910793,
+        "z": -9.867598140083786
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.716666666670406,
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.5244501819722946,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -238,20 +239,21 @@
       "shot": "drive",
       "aim": -0.02333998567052185,
       "landing": {
-        "x": -17.09189974960376,
-        "y": 0.036,
-        "z": -56.88170847309223
+        "x": 0.01340401775640719,
+        "y": 0.7016462494041619,
+        "z": -9.963984653419418
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7416666666624963,
+      "wicket": "run out",
+      "boundary": 0,
+      "timing": "GOOD",
+      "quality": 0.8010122684896909,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -265,9 +267,9 @@
       "shot": "drive",
       "aim": 0.042529852425679554,
       "landing": {
-        "x": 17.585361270615213,
-        "y": 0.036,
-        "z": -56.763770489303866
+        "x": -0.018342797893586917,
+        "y": 0.6952531906371672,
+        "z": -9.966776207222594
       },
       "contact": true
     },
@@ -277,8 +279,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 4,
-      "timing": "GOOD",
-      "quality": 0.6166666666714207,
+      "timing": "LATE",
+      "quality": 0.480348791952903,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -292,9 +294,9 @@
       "shot": "drive",
       "aim": -0.020304499141871924,
       "landing": {
-        "x": 19.237112114421354,
+        "x": 1.0551674616233484,
         "y": 0.036,
-        "z": -56.33498012964251
+        "z": -58.9837472136433
       },
       "contact": true
     },
@@ -303,10 +305,9 @@
       "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.8416666666624053,
+      "timing": "GOOD",
+      "quality": 0.6658610748285198,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -320,20 +321,20 @@
       "shot": "drive",
       "aim": -0.015463347127661106,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.01480861065740584,
+        "y": 0.6990100759331249,
+        "z": -9.964975304087416
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7000000000046782,
+      "boundary": 0,
+      "timing": "GOOD",
+      "quality": 0.7991173975762317,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -347,20 +348,20 @@
       "shot": "drive",
       "aim": 0.028469169143587346,
       "landing": {
-        "x": 18.667624094341654,
-        "y": 0.036,
-        "z": -56.497622928602965
+        "x": -0.01731779610420485,
+        "y": 0.6938614752376518,
+        "z": -9.966868074832169
       },
       "contact": true
     },
     {
-      "runs": 0,
-      "batRuns": 0,
+      "runs": 4,
+      "batRuns": 4,
       "extras": 0,
       "legal": true,
-      "boundary": 0,
-      "timing": "MISSED",
-      "quality": 0,
+      "boundary": 4,
+      "timing": "EARLY",
+      "quality": 0.06740740740749163,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -374,20 +375,21 @@
       "shot": "loft",
       "aim": 0.007641511037945751,
       "landing": {
-        "x": 0.07140309134482181,
-        "y": 0.9820905860537792,
-        "z": 12.16117015500992
+        "x": -41.57245171669915,
+        "y": 0.1717782812052015,
+        "z": 45.247172683156236
       },
-      "contact": false
+      "contact": true
     },
     {
       "runs": 0,
       "batRuns": 0,
       "extras": 0,
       "legal": true,
+      "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.8666666666711933,
+      "timing": "GOOD",
+      "quality": 0.8042602076205306,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -401,9 +403,9 @@
       "shot": "drive",
       "aim": -0.0013855985179543502,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.003134372700224487,
+        "y": 0.6965373793829212,
+        "z": -9.964728666575642
       },
       "contact": true
     },
@@ -413,8 +415,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "GOOD",
-      "quality": 0.5916666666626327,
+      "timing": "EARLY",
+      "quality": 0.5067632761396657,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -428,20 +430,20 @@
       "shot": "drive",
       "aim": -0.04045460763387381,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": 0.02622885821707264,
+        "y": 0.7005759670495598,
+        "z": -9.966882397516923
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "GOOD",
-      "quality": 0.5916666666626327,
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.4590239545232911,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -455,9 +457,9 @@
       "shot": "drive",
       "aim": 0.04122639949060975,
       "landing": {
-        "x": -18.544869358170327,
-        "y": 0.036,
-        "z": -56.522150296098985
+        "x": -0.009610894272816788,
+        "y": 0.7023787195178842,
+        "z": -9.963040278663472
       },
       "contact": true
     },
@@ -466,10 +468,9 @@
       "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.8833333333290341,
+      "timing": "GOOD",
+      "quality": 0.72855336945626,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -483,20 +484,20 @@
       "shot": "drive",
       "aim": -0.030326852101832617,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.018376126858957047,
+        "y": 0.7019538631256242,
+        "z": -9.964420562581811
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "GOOD",
-      "quality": 0.5750000000047919,
+      "boundary": 0,
+      "timing": "LATE",
+      "quality": 0.36464616867220623,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -510,9 +511,9 @@
       "shot": "drive",
       "aim": -0.030557663045823566,
       "landing": {
-        "x": 20.60680921031651,
-        "y": 0.036,
-        "z": -55.91683369741818
+        "x": 0.024178401771413907,
+        "y": 0.6835242692026564,
+        "z": -9.866764745175727
       },
       "contact": true
     },
@@ -522,8 +523,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7000000000048203,
+      "timing": "LATE",
+      "quality": 0.2510178318748843,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -537,20 +538,21 @@
       "shot": "loft",
       "aim": 0.015862755041569466,
       "landing": {
-        "x": 16.460844387641625,
-        "y": 2.24024998026301,
-        "z": -57.07782758974531
+        "x": 64.72802381613347,
+        "y": 0.036,
+        "z": -3.3887981675907066
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7166666666623769,
+      "wicket": "caught",
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.25604978477990686,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -564,9 +566,9 @@
       "shot": "loft",
       "aim": -0.021273439340293403,
       "landing": {
-        "x": -15.716115678552883,
-        "y": 1.7237560663028144,
-        "z": -57.21747838344813
+        "x": -2.85454792090599,
+        "y": 1.9352518496362592,
+        "z": 2.9009911579616685
       },
       "contact": true
     },
@@ -575,10 +577,9 @@
       "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7583333333290057,
+      "timing": "EARLY",
+      "quality": 0.5891775615641947,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -592,9 +593,9 @@
       "shot": "drive",
       "aim": 0.018927738206461067,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.026295914063207113,
+        "y": 0.6801437706729068,
+        "z": -9.868288253917926
       },
       "contact": true
     },
@@ -604,8 +605,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7833333333380779,
+      "timing": "GOOD",
+      "quality": 0.8469075459811641,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -619,9 +620,9 @@
       "shot": "defend",
       "aim": 0.019455480827018614,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0007580213103873893,
+        "y": 0.700152731012524,
+        "z": -10.156606434263033
       },
       "contact": true
     },
@@ -631,8 +632,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "GOOD",
-      "quality": 0.5499999999958618,
+      "timing": "EARLY",
+      "quality": 0.47580002856209147,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -646,9 +647,9 @@
       "shot": "drive",
       "aim": -0.014358561431989072,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": 0.028826881151167216,
+        "y": 0.7005761560248097,
+        "z": -9.967595232164772
       },
       "contact": true
     },
@@ -659,7 +660,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "GOOD",
-      "quality": 0.575000000004934,
+      "quality": 0.7187706587901916,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -673,9 +674,9 @@
       "shot": "defend",
       "aim": 0.020418495578691354,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0007496901775958658,
+        "y": 0.7000434720110489,
+        "z": -10.156536473131116
       },
       "contact": true
     },
@@ -685,8 +686,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7000000000048203,
+      "timing": "GOOD",
+      "quality": 0.8156042677558574,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -700,20 +701,21 @@
       "shot": "defend",
       "aim": 0.02871034246869385,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0007169861633549376,
+        "y": 0.7000973975164198,
+        "z": -10.156326451879822
       },
       "contact": true
     },
     {
-      "runs": 6,
-      "batRuns": 6,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 6,
-      "timing": "PERFECT",
-      "quality": 0.7833333333380779,
+      "wicket": "run out",
+      "boundary": 0,
+      "timing": "LATE",
+      "quality": 0.5727441754150299,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -727,9 +729,9 @@
       "shot": "loft",
       "aim": -0.011349874846637246,
       "landing": {
-        "x": 10.217199769065848,
-        "y": 0.9067652911907557,
-        "z": -58.28114580846116
+        "x": -0.0009689027970025399,
+        "y": 0.6651552300786738,
+        "z": -9.870869745097327
       },
       "contact": true
     },
@@ -739,8 +741,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 4,
-      "timing": "GOOD",
-      "quality": 0.6166666666715628,
+      "timing": "LATE",
+      "quality": 0.5838483433982176,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -754,9 +756,9 @@
       "shot": "drive",
       "aim": -0.03461622944474219,
       "landing": {
-        "x": 18.108089965973296,
+        "x": 1.0937666219998108,
         "y": 0.036,
-        "z": -56.62654014380711
+        "z": -58.989495442120905
       },
       "contact": true
     },
@@ -767,8 +769,8 @@
       "legal": true,
       "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.9916666666712217,
+      "timing": "GOOD",
+      "quality": 0.8108280590199973,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -782,20 +784,21 @@
       "shot": "drive",
       "aim": 0.03716619441471993,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.006673841798086486,
+        "y": 0.6743622667505925,
+        "z": -9.868400030469127
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7166666666623769,
+      "wicket": "run out",
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.5500912919366528,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -809,9 +812,9 @@
       "shot": "drive",
       "aim": 0.0014454933926463128,
       "landing": {
-        "x": -15.137111810484635,
-        "y": 0.036,
-        "z": -57.35306347749612
+        "x": -0.002228221304389585,
+        "y": 0.7008283477869848,
+        "z": -9.963304126035819
       },
       "contact": true
     },
@@ -821,8 +824,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7583333333290057,
+      "timing": "GOOD",
+      "quality": 0.7937942988500001,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -836,20 +839,21 @@
       "shot": "defend",
       "aim": -0.02250782926753163,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0027862622707301166,
+        "y": 0.6791428753861938,
+        "z": -10.25316061939551
       },
       "contact": true
     },
     {
-      "runs": 6,
-      "batRuns": 6,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 6,
+      "wicket": "caught",
+      "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.9666666666621495,
+      "quality": 0.8890776478287832,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -863,20 +867,20 @@
       "shot": "loft",
       "aim": 0.005967421634122725,
       "landing": {
-        "x": -1.1353745051145625,
-        "y": 11.600501144734094,
-        "z": -59.03049352675388
+        "x": 6.977120954788848,
+        "y": 1.9282595869170405,
+        "z": -57.671022632404224
       },
       "contact": true
     },
     {
-      "runs": 0,
-      "batRuns": 0,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7833333333380779,
+      "timing": "GOOD",
+      "quality": 0.807411934236177,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -890,9 +894,9 @@
       "shot": "drive",
       "aim": -0.0073813022561371325,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.018796955076210296,
+        "y": 0.6629924182600936,
+        "z": -9.872526984277242
       },
       "contact": true
     },
@@ -903,7 +907,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.9666666666621495,
+      "quality": 0.9413588627257711,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -917,21 +921,20 @@
       "shot": "defend",
       "aim": 0.026006139410659667,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0018277250307734535,
+        "y": 0.6996516608527328,
+        "z": -10.15629838362988
       },
       "contact": true
     },
     {
-      "runs": 0,
-      "batRuns": 0,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
-      "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.9916666666712217,
+      "timing": "GOOD",
+      "quality": 0.8308737895650583,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -945,20 +948,21 @@
       "shot": "drive",
       "aim": -0.022579700101166958,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": 0.0018489357467417937,
+        "y": 0.6973251577544786,
+        "z": -9.964423323911019
       },
       "contact": true
     },
     {
-      "runs": 6,
-      "batRuns": 6,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 6,
-      "timing": "PERFECT",
-      "quality": 0.883333333328892,
+      "wicket": "caught",
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.5461804608767995,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -972,20 +976,21 @@
       "shot": "loft",
       "aim": 0.03902445469424128,
       "landing": {
-        "x": -2.850336679083064,
-        "y": 7.568316155058248,
-        "z": -58.978796761349685
+        "x": 8.207004606939277,
+        "y": 1.9498390139946062,
+        "z": -32.9479200358888
       },
       "contact": true
     },
     {
-      "runs": 6,
-      "batRuns": 6,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 6,
-      "timing": "PERFECT",
-      "quality": 0.9083333333379642,
+      "wicket": "caught",
+      "boundary": 0,
+      "timing": "GOOD",
+      "quality": 0.6252190054735155,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -999,9 +1004,9 @@
       "shot": "loft",
       "aim": -0.019605459395796054,
       "landing": {
-        "x": 3.264356069544426,
-        "y": 8.801140577648088,
-        "z": -58.90458955921277
+        "x": 2.126199425629088,
+        "y": 0.6236368359992834,
+        "z": -35.970058241019295
       },
       "contact": true
     },
@@ -1011,8 +1016,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7000000000048203,
+      "timing": "GOOD",
+      "quality": 0.7058991703671796,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1026,9 +1031,9 @@
       "shot": "drive",
       "aim": 0.00442800667323172,
       "landing": {
-        "x": 16.772307797393882,
+        "x": 4.30030292739519,
         "y": 0.036,
-        "z": -56.988981487964196
+        "z": -58.86053156816956
       },
       "contact": true
     },
@@ -1039,7 +1044,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "GOOD",
-      "quality": 0.575000000004934,
+      "quality": 0.6833540002735246,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1053,9 +1058,9 @@
       "shot": "defend",
       "aim": 0.012027505638077854,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0015878207000972993,
+        "y": 0.6799256747254437,
+        "z": -10.253461629416227
       },
       "contact": true
     },
@@ -1066,7 +1071,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.950000000004593,
+      "quality": 0.986780842635591,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1080,9 +1085,9 @@
       "shot": "defend",
       "aim": 0.04378004344180226,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.001920626671307495,
+        "y": 0.6996519142065788,
+        "z": -10.15636629210113
       },
       "contact": true
     },
@@ -1093,7 +1098,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.9666666666621495,
+      "quality": 0.9728797568355159,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1107,20 +1112,21 @@
       "shot": "defend",
       "aim": 0.027742182843387118,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.001961425703895659,
+        "y": 0.6996515361515644,
+        "z": -10.156261387426486
       },
       "contact": true
     },
     {
-      "runs": 6,
-      "batRuns": 6,
+      "runs": 0,
+      "batRuns": 0,
       "extras": 0,
       "legal": true,
-      "boundary": 6,
+      "wicket": "caught",
+      "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.9916666666712217,
+      "quality": 0.880755466622887,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1134,9 +1140,9 @@
       "shot": "loft",
       "aim": -0.000014961773529648112,
       "landing": {
-        "x": 0.5232717788693493,
-        "y": 12.678904967823344,
-        "z": -59.002132339338
+        "x": 6.2737510009192246,
+        "y": 1.6927908521552903,
+        "z": -57.660587459671646
       },
       "contact": true
     },
@@ -1146,8 +1152,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7416666666714491,
+      "timing": "GOOD",
+      "quality": 0.8255193686456836,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1161,9 +1167,9 @@
       "shot": "defend",
       "aim": -0.036149007208645334,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0009016204448924962,
+        "y": 0.7000977859858939,
+        "z": -10.15643573528428
       },
       "contact": true
     },
@@ -1173,8 +1179,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7999999999956344,
+      "timing": "GOOD",
+      "quality": 0.8291937243235954,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1188,9 +1194,9 @@
       "shot": "defend",
       "aim": 0.0004325714223086806,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0014274404875417757,
+        "y": 0.6996520555545711,
+        "z": -10.156413686204782
       },
       "contact": true
     },
@@ -1200,8 +1206,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.6749999999957481,
+      "timing": "GOOD",
+      "quality": 0.7671745225263739,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1215,9 +1221,9 @@
       "shot": "defend",
       "aim": -0.02283858991786837,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.059999999999999
+        "x": 0.0013131251883394732,
+        "y": 0.6995940297609738,
+        "z": -10.156131597572209
       },
       "contact": true
     },
@@ -1228,7 +1234,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.8250000000047066,
+      "quality": 0.871849210927424,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1242,9 +1248,9 @@
       "shot": "defend",
       "aim": -0.0030961340703070154,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.000860392485110473,
+        "y": 0.7001519124028489,
+        "z": -10.15637164997014
       },
       "contact": true
     },
@@ -1254,8 +1260,8 @@
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.7416666666714491,
+      "timing": "GOOD",
+      "quality": 0.7958940554842148,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1269,21 +1275,20 @@
       "shot": "defend",
       "aim": -0.03396513049677014,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0017548461013988988,
+        "y": 0.6800352222195375,
+        "z": -10.253531763085917
       },
       "contact": true
     },
     {
-      "runs": 0,
-      "batRuns": 0,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
-      "wicket": "run out",
       "boundary": 0,
-      "timing": "PERFECT",
-      "quality": 0.950000000004593,
+      "timing": "GOOD",
+      "quality": 0.8288314895698256,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1297,20 +1302,20 @@
       "shot": "drive",
       "aim": -0.01601981566660106,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": 0.0011385778296014875,
+        "y": 0.6971956895710992,
+        "z": -9.964358496098537
       },
       "contact": true
     },
     {
-      "runs": 4,
-      "batRuns": 4,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
-      "boundary": 4,
-      "timing": "PERFECT",
-      "quality": 0.7166666666623769,
+      "boundary": 0,
+      "timing": "EARLY",
+      "quality": 0.5666082650077059,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1324,20 +1329,20 @@
       "shot": "drive",
       "aim": -0.035222332758828995,
       "landing": {
-        "x": -18.032408869821086,
-        "y": 0.036,
-        "z": -56.66947205713712
+        "x": 0.012314255360986768,
+        "y": 0.682261041192609,
+        "z": -9.866111085221721
       },
       "contact": true
     },
     {
-      "runs": 0,
-      "batRuns": 0,
+      "runs": 1,
+      "batRuns": 1,
       "extras": 0,
       "legal": true,
       "boundary": 0,
-      "timing": "GOOD",
-      "quality": 0.5333333333383052,
+      "timing": "LATE",
+      "quality": 0.3034650969346808,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1351,9 +1356,9 @@
       "shot": "drive",
       "aim": 0.02417137703113257,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.060000000000002
+        "x": -0.02599529450585481,
+        "y": 0.6838851121101759,
+        "z": -9.866796100936197
       },
       "contact": true
     },
@@ -1364,7 +1369,7 @@
       "legal": true,
       "boundary": 0,
       "timing": "PERFECT",
-      "quality": 0.950000000004593,
+      "quality": 0.9602301923032561,
       "delivery": {
         "kind": "good",
         "speed": 105,
@@ -1378,9 +1383,9 @@
       "shot": "defend",
       "aim": 0.028919882718473667,
       "landing": {
-        "x": 0,
-        "y": 0.7200000000000002,
-        "z": -10.06
+        "x": 0.0036949635231647224,
+        "y": 0.6791423061989316,
+        "z": -10.25299071406998
       },
       "contact": true
     }

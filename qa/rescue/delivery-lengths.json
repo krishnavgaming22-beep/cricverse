@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "yorker",
+    "bounceZ": 8.101635855199786
+  },
+  {
+    "kind": "full",
+    "bounceZ": 6.042995127443459
+  },
+  {
+    "kind": "good",
+    "bounceZ": 3.529008799012659
+  },
+  {
+    "kind": "short",
+    "bounceZ": -0.12072261994196508
+  },
+  {
+    "kind": "slower",
+    "bounceZ": 3.580329023430529
+  }
+]
